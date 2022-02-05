@@ -48,10 +48,6 @@ delta_Y = list()
 
 for (i in 1:nrow(loading)){
   delta_Y[i] = mean_yield_change[i] + (pc_values[1]*loading[i,1] + pc_values[2]*loading[i,2])
-  # delta_Y[i] <- mean_yield_change[i] + (pc_values_full[1]*loading_full[i,1] + pc_values_full[2]*loading_full[i,2]
-  #                                           + pc_values_full[3]*loading_full[i,3] + pc_values_full[4]*loading_full[i,4]
-  #                                           + pc_values_full[5]*loading_full[i,5] + pc_values_full[6]*loading_full[i,6]
-  #                                           + pc_values_full[7]*loading_full[i,7] + pc_values_full[8]*loading_full[i,8])
 }
 
 d_Y <- data.frame(matrix(unlist(delta_Y), nrow = length(delta_Y), byrow = T))
