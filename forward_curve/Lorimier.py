@@ -1,6 +1,6 @@
-####################################################
-# Forward curve with Lorimier's method
-####################################################
+######################################################################################
+# Estimate the forward curve with Lorimier's method and find a specific yield on ZCB.
+######################################################################################
 
 import pandas as pd
 import numpy as np
