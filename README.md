@@ -1,4 +1,4 @@
 # interest-rate-modelling
-R/Python code for modelling interest rate products based on the "Interest Rate Models" course on Coursera taught by Damir Filipović. The topics vary a lot from basic applications of formulae to pseudoinverse method to find the discount curve. You are welcome to reach out for access and if you need clarifications, I will do my best to help out.
+Quantitative Finance/ Stochastic Calcolus in R-Python covering various topics of the course "Interest Rate Models" on Coursera taught by Damir Filipović. The topics vary a lot from basic applications of formulae to pseudoinverse method to find the discount curve. You are welcome to reach out if you need clarifications, I will do my best to help out.
 
-Special thanks to Coursera and various discussion for the help!
+Special thanks to Coursera and various discussion for the help/support!
